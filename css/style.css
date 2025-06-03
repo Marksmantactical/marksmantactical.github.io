@@ -88,7 +88,7 @@ et-main p {
 .header-container {
 }
 #top {
-  background-color: rgba(73, 95, 255, 0.442);
+  /* background-color: rgba(73, 95, 255, 0.442); */
 }
 
 #header-image {
@@ -118,7 +118,6 @@ et-main p {
   font-size: 1rem;
   letter-spacing: 0.3rem;
   opacity: 0.6;
-
 }
 main h2 {
   color:#003594;
@@ -470,7 +469,7 @@ blockquote {
 @media (min-width:768px) {
   .responsive-three-column-grid {
       display: grid;
-      grid-auto-rows: 1fr;
+      grid-auto-rows: 2fr;
       grid-template-columns: 1fr 1fr 1fr;
   }
 }
